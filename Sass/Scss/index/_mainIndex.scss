@@ -1,0 +1,22 @@
+main{
+    background-color: $cPrinci;
+    #listaa{
+        color:#2B0800;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    #tablaa{
+        line-height: 3;
+        text-align: center;
+        width: 98vw;
+    }
+    img{
+        height: auto;
+        
+        &:hover{
+        height: 200px;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+        z-index: inherit ;}
+    }
+}

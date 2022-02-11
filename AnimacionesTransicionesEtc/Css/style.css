@@ -25,9 +25,6 @@ header{
     transform: rotateZ(-10deg);
 }
 
-#boble{
-    /* color: black */
-}
 .nava{
     font-style: italic;
     font-weight: 600;
@@ -43,11 +40,9 @@ header{
     margin-right: 20px;
     border-width: 5px;
     line-height: 2;
-
 }
 .nava:hover{
     background-color: rgb(83, 25, 218)
-
 }
 #listaa{
     color:#2B0800;
